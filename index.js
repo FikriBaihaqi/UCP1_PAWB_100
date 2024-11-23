@@ -4,6 +4,4 @@ import bibitRoute from "./routes/bibit.js";
 import pupukRoute from "./routes/pupuk.js";
 
 const app = express();
-
-
-
+const port = 8000;
