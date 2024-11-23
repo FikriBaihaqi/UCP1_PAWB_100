@@ -12,10 +12,5 @@ app.use("/bibit", bibitRoute);
 app.use("/pupuk", pupukRoute);
 app.get("/", (req, res) => {
     console.log(["Get ROUTE"]);
-    res.send("Selamat Pagiiiii");
+    res.send("Selamat Kawan");
 });
-
-app.listen(port, () =>
-    console.log(
-        `Server berjalan di port: http://localhost:${port}`)
-);
